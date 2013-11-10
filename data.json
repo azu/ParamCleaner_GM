@@ -1,0 +1,459 @@
+[
+    {
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "updated_at": "2013-10-14T22:44:26+09:00",
+        "created_by": "nkoz",
+        "name": "All About",
+        "data": {
+            "exampleUrl": "http://allabout.co.jp/matome/cl000000000460/?FM=tw_20131014_6",
+            "kill": "FM",
+            "live": "",
+            "url": "^http://allabout\\.co\\.jp/"
+        },
+        "created_at": "2013-10-14T22:44:26+09:00",
+        "resource_url": "http://wedata.net/items/74576"
+    },
+    {
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "updated_at": "2013-10-14T22:40:44+09:00",
+        "created_by": "nkoz",
+        "name": "WIRED.jp",
+        "data": {
+            "exampleUrl": "http://wired.jp/2013/10/14/detroit-vol9/?utm_source=feed&utm_medium=",
+            "kill": "utm_source utm_medium utm_source%3dfeed%26utm_medium%3d",
+            "url": "^http://wired\\.jp/\\d+/\\d+/\\d+/.*/"
+        },
+        "created_at": "2013-10-14T22:25:11+09:00",
+        "resource_url": "http://wedata.net/items/74575"
+    },
+    {
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "created_at": "2013-08-01T20:56:05+09:00",
+        "name": "ハフィントンポスト",
+        "data": {
+            "exampleUrl": "http://www.huffingtonpost.jp/ichiya-nakamura/-_22_b_3685924.html?utm_hp_ref=japan",
+            "kill": "ref utm_hp_ref",
+            "live": "",
+            "url": "^http://www\\.huffingtonpost\\.jp/"
+        },
+        "updated_at": "2013-08-01T20:56:05+09:00",
+        "created_by": "nkoz",
+        "resource_url": "http://wedata.net/items/74039"
+    },
+    {
+        "name": "MANTANWEB(まんたんウェブ)",
+        "updated_at": "2012-04-11T15:53:13+09:00",
+        "created_by": "tester",
+        "resource_url": "http://wedata.net/items/60089",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "created_at": "2012-04-11T15:53:13+09:00",
+        "data": {
+            "kill": "mode",
+            "exampleUrl": "http://mantan-web.jp/2012/04/10/20120410dog00m200045000c.html?mode=pc",
+            "url": "^http://mantan-web\\.jp/",
+            "live": ""
+        }
+    },
+    {
+        "name": "BLOGOS",
+        "resource_url": "http://wedata.net/items/57284",
+        "updated_at": "2012-02-01T12:09:10+09:00",
+        "created_by": "tester",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "axis",
+            "url": "^http://blogos\\.com/",
+            "live": "",
+            "exampleUrl": "http://blogos.com/article/30799/?axis=t:4665"
+        },
+        "created_at": "2012-02-01T12:09:10+09:00"
+    },
+    {
+        "name": "Togetter",
+        "resource_url": "http://wedata.net/items/56020",
+        "updated_at": "2011-12-09T21:38:49+09:00",
+        "created_by": "tester",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "f",
+            "url": "^http://togetter\\.com/",
+            "live": "",
+            "exampleUrl": "http://togetter.com/li/224821?f=tgtn"
+        },
+        "created_at": "2011-12-09T21:38:49+09:00"
+    },
+    {
+        "name": "日経ビジネスオンライン",
+        "resource_url": "http://wedata.net/items/55577",
+        "updated_at": "2011-10-11T06:57:58+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "mlt rt",
+            "url": "^http://business\\.nikkeibp\\.co\\.jp/",
+            "live": "",
+            "exampleUrl": "http://business.nikkeibp.co.jp/article/world/20111004/223004/?mlt&rt=nocnt"
+        },
+        "created_at": "2011-10-11T06:57:58+09:00"
+    },
+    {
+        "name": "CNET Japan",
+        "resource_url": "http://wedata.net/items/55280",
+        "updated_at": "2011-10-25T15:50:30+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "tag ref",
+            "url": "^http://japan\\.cnet\\.com/",
+            "exampleUrl": "http://japan.cnet.com/news/service/35006249/?tag=as.rss"
+        },
+        "created_at": "2011-08-19T00:46:43+09:00"
+    },
+    {
+        "name": "NTTドコモ",
+        "resource_url": "http://wedata.net/items/54719",
+        "updated_at": "2011-07-24T11:13:27+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "ref",
+            "url": "^http://www\\.nttdocomo\\.co\\.jp/",
+            "live": "",
+            "exampleUrl": "http://www.nttdocomo.co.jp/service/convenience/insurance/medical_insurance/index.html?ref=rss"
+        },
+        "created_at": "2011-07-24T11:13:27+09:00"
+    },
+    {
+        "name": "WSJ Blogs",
+        "resource_url": "http://wedata.net/items/54655",
+        "updated_at": "2011-07-11T20:54:40+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "mod",
+            "url": "^http://blogs\\.wsj\\.com/",
+            "live": "",
+            "exampleUrl": "http://blogs.wsj.com/japanrealtime/2011/07/11/japan-power-list-the-two-osamus/?mod=WSJBlog"
+        },
+        "created_at": "2011-07-11T20:54:40+09:00"
+    },
+    {
+        "name": "時事ドットコム",
+        "resource_url": "http://wedata.net/items/54427",
+        "updated_at": "2011-06-11T21:07:34+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "m",
+            "url": "^http://www\\.jiji\\.com/",
+            "exampleUrl": "http://www.jiji.com/jc/c?g=soc_30&k=2011061100265&m=rss"
+        },
+        "created_at": "2011-06-11T20:56:57+09:00"
+    },
+    {
+        "name": "japan.internet.com",
+        "resource_url": "http://wedata.net/items/54426",
+        "updated_at": "2011-06-11T20:32:52+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "rss",
+            "url": "^http://japan\\.internet\\.com/",
+            "live": "",
+            "exampleUrl": "http://japan.internet.com/wmnews/20110611/3.html?rss"
+        },
+        "created_at": "2011-06-11T20:32:52+09:00"
+    },
+    {
+        "name": "発言小町 : 大手小町 : YOMIURI ONLINE（読売新聞）",
+        "resource_url": "http://wedata.net/items/54304",
+        "updated_at": "2011-06-20T02:07:14+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "g from",
+            "url": "^http://komachi\\.yomiuri\\.co\\.jp/",
+            "exampleUrl": "http://komachi.yomiuri.co.jp/t/2011/0529/413102.htm?g=08"
+        },
+        "created_at": "2011-05-29T16:03:05+09:00"
+    },
+    {
+        "name": "mixiニュース",
+        "resource_url": "http://wedata.net/items/54303",
+        "updated_at": "2011-05-29T15:53:18+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "",
+            "url": "^http://news\\.mixi\\.jp/view_news\\.pl",
+            "live": "id media_id",
+            "exampleUrl": "http://news.mixi.jp/view_news.pl?id=1618238&media_id=20&m=2&ref=news%3Aright%3Apickup"
+        },
+        "created_at": "2011-05-29T15:53:18+09:00"
+    },
+    {
+        "name": "ITmedia オルタナティブ・ブログ",
+        "resource_url": "http://wedata.net/items/54302",
+        "updated_at": "2011-05-29T15:41:07+09:00",
+        "created_by": "nkoz",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "ref",
+            "url": "^http://blogs\\.itmedia\\.co\\.jp/",
+            "exampleUrl": "http://blogs.itmedia.co.jp/yoshimasa/2011/05/youtubegoogle-c-2b71.html?ref=rssall"
+        },
+        "created_at": "2011-05-29T15:31:12+09:00"
+    },
+    {
+        "name": "デイリーポータルZ",
+        "resource_url": "http://wedata.net/items/53790",
+        "updated_at": "2011-05-22T22:17:03+09:00",
+        "created_by": "tester",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "r",
+            "url": "^http://portal\\.nifty\\.com/",
+            "live": "",
+            "exampleUrl": "http://portal.nifty.com/2011/05/18/b/?r=sbtw"
+        },
+        "created_at": "2011-05-22T22:17:03+09:00"
+    },
+    {
+        "name": "毎日jp",
+        "resource_url": "http://wedata.net/items/51035",
+        "updated_at": "2011-04-17T14:51:34+09:00",
+        "created_by": "tester",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "inb",
+            "url": "^http://mainichi\\.jp/",
+            "live": "",
+            "exampleUrl": "http://mainichi.jp/select/today/news/20110417k0000e040018000c.html?inb=fa"
+        },
+        "created_at": "2011-04-17T14:51:34+09:00"
+    },
+    {
+        "name": "goo ブログ",
+        "resource_url": "http://wedata.net/items/50135",
+        "updated_at": "2011-04-06T00:48:02+09:00",
+        "created_by": "tester",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "fm",
+            "url": "^http://blog\\.goo\\.ne\\.jp/",
+            "live": "",
+            "exampleUrl": "http://blog.goo.ne.jp/marimotohashi/e/3c1be62bc96abfdd0cddc1859f0957dc?fm=rss"
+        },
+        "created_at": "2011-04-06T00:48:02+09:00"
+    },
+    {
+        "name": "Ustream",
+        "resource_url": "http://wedata.net/items/50113",
+        "updated_at": "2011-04-05T18:11:42+09:00",
+        "created_by": "azu",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "utm_campaign utm_content utm_medium utm_source utm_term",
+            "url": "^http://www\\.ustream\\.tv/(channel|recorded)/",
+            "live": "",
+            "exampleUrl": "http://www.ustream.tv/channel/fukushima-power-plant-symposium#utm_campaign=unknown&utm_source=7836105&utm_medium=social"
+        },
+        "created_at": "2011-04-05T18:11:42+09:00"
+    },
+    {
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "updated_at": "2013-10-13T17:03:21+09:00",
+        "created_by": "mimi-neko",
+        "name": "ニコニコ動画",
+        "data": {
+            "exampleUrl": "http://www.nicovideo.jp/watch/sm12212354?top_osusume",
+            "kill": "top_osusume top_flog top_live top_event top_ch1 top_ch2 top_tag mypage_nicorepo mypage_history mypage_top mypage_newarrival user_nicorepo track nicorepomail ref via zroute side_bar",
+            "live": "sort tab mode page watch_harmful",
+            "url": "^http://[^./]+\\.nicovideo\\.jp/"
+        },
+        "created_at": "2010-09-26T23:40:43+09:00",
+        "resource_url": "http://wedata.net/items/37345"
+    },
+    {
+        "name": "ASCII.jp",
+        "updated_at": "2010-09-26T22:36:38+09:00",
+        "resource_url": "http://wedata.net/items/37343",
+        "created_by": "mimi-neko",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "rss mail arank",
+            "url": "^http://ascii\\.jp/elem/000/000/\\d+/\\d+/",
+            "exampleUrl": "http://ascii.jp/elem/000/000/557/557449/summary.html?rss"
+        },
+        "created_at": "2010-09-26T22:35:48+09:00"
+    },
+    {
+        "name": "Yahoo!知恵袋",
+        "updated_at": "2010-07-23T01:00:08+09:00",
+        "resource_url": "http://wedata.net/items/34146",
+        "created_by": "raimon49",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "fr",
+            "url": "^http://detail\\.chiebukuro\\.yahoo\\.co\\.jp/qa/question_detail/",
+            "live": "",
+            "exampleUrl": "http://detail.chiebukuro.yahoo.co.jp/qa/question_detail/q1243817632?fr=top_mantenna"
+        },
+        "created_at": "2010-07-23T01:00:08+09:00"
+    },
+    {
+        "created_at": "2010-07-23T00:37:37+09:00",
+        "resource_url": "http://wedata.net/items/34145",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "exampleUrl": "http://trendy.nikkeibp.co.jp/article/news/20100721/1032440/?rss",
+            "kill": "rss rt",
+            "url": "^http://trendy\\.nikkeibp\\.co\\.jp/article/"
+        },
+        "updated_at": "2012-03-21T02:21:59+09:00",
+        "created_by": "raimon49",
+        "name": "日経トレンディネット"
+    },
+    {
+        "name": "SlideShare",
+        "resource_url": "http://wedata.net/items/33196",
+        "updated_at": "2011-01-09T17:47:58+09:00",
+        "created_by": "ussy",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "from src rel",
+            "url": "^http://www\\.slideshare\\.net/",
+            "exampleUrl": "http://www.slideshare.net/setoazusa/ss-1037922?from=ss_embed"
+        },
+        "created_at": "2010-06-17T01:03:05+09:00"
+    },
+    {
+        "name": "Blogspot",
+        "updated_at": "2012-03-31T20:19:46+09:00",
+        "created_by": "お化け猫",
+        "resource_url": "http://wedata.net/items/33130",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "created_at": "2010-06-07T19:52:19+09:00",
+        "data": {
+            "kill": "zx spref m",
+            "exampleUrl": "http://nudeartworld.blogspot.com/?zx=b37a29313334b6b6",
+            "url": "^http://[^./]+\\.blogspot\\.(?:com|jp)/"
+        }
+    },
+    {
+        "name": "日経ウーマンオンライン",
+        "updated_at": "2010-04-14T21:39:20+09:00",
+        "created_by": "raimon49",
+        "resource_url": "http://wedata.net/items/32049",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "ref",
+            "url": "^http://wol\\.nikkeibp\\.co\\.jp/article/",
+            "live": "",
+            "exampleUrl": "http://wol.nikkeibp.co.jp/article/trend/20100412/106698/?ref=top-rank"
+        },
+        "created_at": "2010-04-14T21:39:20+09:00"
+    },
+    {
+        "name": "YOMIURI ONLINE（読売新聞）",
+        "resource_url": "http://wedata.net/items/31950",
+        "updated_at": "2011-08-20T05:52:48+09:00",
+        "created_by": "raimon49",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "from ref",
+            "url": "^http://www\\.yomiuri\\.co\\.jp/.*[^/]+/news/.+htm",
+            "exampleUrl": "http://www.yomiuri.co.jp/politics/news/20100401-OYT1T01058.htm?from=rss&ref=rssad"
+        },
+        "created_at": "2010-04-01T22:32:23+09:00"
+    },
+    {
+        "name": "PC Online",
+        "updated_at": "2010-04-01T22:09:42+09:00",
+        "created_by": "raimon49",
+        "resource_url": "http://wedata.net/items/31949",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "f set",
+            "url": "^http://pc\\.nikkeibp\\.co\\.jp/article/",
+            "exampleUrl": "http://pc.nikkeibp.co.jp/article/knowhow/20100329/1023993/?f=topic http://pc.nikkeibp.co.jp/article/trend/20100330/1023996/?f=ranking http://pc.nikkeibp.co.jp/article/news/20100401/1024066/?set=rss "
+        },
+        "created_at": "2010-04-01T22:06:19+09:00"
+    },
+    {
+        "name": "asahi.com",
+        "updated_at": "2010-03-10T03:09:17+09:00",
+        "created_by": "ussy",
+        "resource_url": "http://wedata.net/items/31757",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "ref",
+            "url": "^http://www\\.asahi\\.com/",
+            "exampleUrl": "http://www.asahi.com/national/update/0308/NGY201003080029.html?ref=rss"
+        },
+        "created_at": "2010-03-09T01:27:12+09:00"
+    },
+    {
+        "name": "ZDNet",
+        "updated_at": "2010-09-26T22:31:02+09:00",
+        "resource_url": "http://wedata.net/items/31680",
+        "created_by": "ussy",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "ref",
+            "url": "^http://(?:.+\\.)+?zdnet\\.com/",
+            "exampleUrl": "http://builder.japan.zdnet.com/member/u48681/blog/2010/09/24/entry_27042387/?ref=rss"
+        },
+        "created_at": "2010-02-27T17:43:44+09:00"
+    },
+    {
+        "name": "Impress Watch",
+        "resource_url": "http://wedata.net/items/31668",
+        "updated_at": "2011-10-31T22:52:41+09:00",
+        "created_by": "raimon49",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "ref mode",
+            "url": "^http://(?:[^.]+\\.)+?impress\\.co\\.jp/",
+            "exampleUrl": "http://k-tai.impress.co.jp/docs/news/20100308_353449.html?ref=rss http://internet.watch.impress.co.jp/docs/special/fukui/20111031_487650.html?mode=pc"
+        },
+        "created_at": "2010-02-26T01:21:05+09:00"
+    },
+    {
+        "name": "ITpro",
+        "resource_url": "http://wedata.net/items/31667",
+        "updated_at": "2011-07-07T22:01:42+09:00",
+        "created_by": "raimon49",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "ST t2",
+            "url": "^http://itpro\\.nikkeibp\\.co\\.jp/article/",
+            "exampleUrl": "http://itpro.nikkeibp.co.jp/article/Watcher/20100216/344607/?ST=kessan&P=2"
+        },
+        "created_at": "2010-02-26T00:52:03+09:00"
+    },
+    {
+        "name": "YouTube",
+        "resource_url": "http://wedata.net/items/31666",
+        "updated_at": "2011-07-23T21:51:30+09:00",
+        "created_by": "ussy",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "url": "^http://www\\.youtube\\.com/watch\\?",
+            "live": "v hd skipcontrinter"
+        },
+        "created_at": "2010-02-26T00:07:52+09:00"
+    },
+    {
+        "name": "Google Analytics",
+        "updated_at": "2010-05-16T00:13:00+09:00",
+        "resource_url": "http://wedata.net/items/31664",
+        "created_by": "ussy",
+        "database_resource_url": "http://wedata.net/databases/UrlCleaner",
+        "data": {
+            "kill": "utm_campaign utm_content utm_medium utm_source utm_term",
+            "url": "^https?://[^?#]+[?#].*\\butm_(?:c(?:ampaign|ontent)|medium|source|term)\\b"
+        },
+        "created_at": "2010-02-26T00:06:21+09:00"
+    }
+]

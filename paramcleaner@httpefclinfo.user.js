@@ -6,17 +6,20 @@
 // @include        http://*#*
 // @include        https://*?*
 // @include        https://*#*
-// @require        https://gist.github.com/azu/434406/raw/wedata.js
+// @require        https://rawgithub.com/azu/ParamCleaner_GM/master/wedata.js
 // @author         azu
 // @contributor    Ussy <http://userscripts.org/scripts/show/70851>
 // @homepage       http://efcl.info/
-// @run-at document-end
+// @run-at         document-end
 // @noframes
 // ==/UserScript==
-(function(win) {
-    const DATABASE_URL = "http://wedata.net/databases/UrlCleaner/items.json";
+(function (win) {
+    const DATABASE_URL = [
+        "http://wedata.net/databases/UrlCleaner/items.json",
+        "https://rawgithub.com/azu/ParamCleaner_GM/master/data.json"
+    ];
     var database = new Wedata.Database(DATABASE_URL);
-    GM_registerMenuCommand("UrlCleaner - clear cache", function() {
+    GM_registerMenuCommand("UrlCleaner - clear cache", function () {
         database.clearCache();
     });
     var link = document.querySelector("link[rel=canonical]");
@@ -24,17 +27,6 @@
         return;
     }
     const SITEINFO = [
-        /*
-         { // USt
-         url: "^http://www\.ustream\.tv/(channel|recorded)/",
-         kill: "utm_campaign utm_content utm_medium utm_source utm_term",
-         exampleUrl : 'http://www.ustream.tv/channel/fukushima-power-plant-symposium#utm_campaign=unknown&utm_source=7836105&utm_medium=social'
-         },
-         { // YouTube
-         url: "^http://www\.youtube\.com/watch\?",
-         live: "v"
-         }
-         */
 
     ];
 
@@ -53,7 +45,7 @@
         var r = []
         var paramsStr = getParamsStr(url)
         if (paramsStr) {
-            paramsStr.split('&').forEach(function(i) {
+            paramsStr.split('&').forEach(function (i) {
                 r.push(i.split('='))
             });
         }
@@ -62,9 +54,9 @@
 
     function paramsJoin(params) {
         return params.map(
-                function(i) {
-                    return i.join('=')
-                }).join('&')
+            function (i) {
+                return i.join('=')
+            }).join('&')
     }
 
     function removeUtmParams(url, data) {
@@ -86,7 +78,7 @@
             // liveなパラメーターの検査
             if (rescues && rescues.length > 0 && rescues != "") {
                 // console.log(rescues + "<< live");
-                filteredParams = params.filter(function(val, index, array) {
+                filteredParams = params.filter(function (val, index, array) {
                     var paramName = val[0];
                     // console.log(paramName + " << Name -live");
                     for (var i = 0, len = rescues.length; i < len; i++) {
@@ -102,7 +94,7 @@
                 // killなパラメータの検査
                 if (killers && killers.length > 0 && killers != "") {
                     // killなパラメータの検査
-                    filteredParams = params.filter(function(val, index, array) {
+                    filteredParams = params.filter(function (val, index, array) {
                         var paramName = val[0];
                         for (var i = 0, len = killers.length; i < len; i++) {
                             // console.log(paramName + " << Name -kill " + killers[i] + " - " + killers.length);
@@ -142,8 +134,8 @@
 
     // Main処理
     SITEINFO && SITEINFO.length > 0 && SITEINFO.forEach(tryReplaceState);
-    database.get(function(items) {
-        items.forEach(function(item) {
+    database.get(function (items) {
+        items.forEach(function (item) {
             tryReplaceState(item.data);
         });
     });
