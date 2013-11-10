@@ -15,8 +15,8 @@
 // ==/UserScript==
 (function (win) {
     const DATABASE_URL = [
-        "http://wedata.net/databases/UrlCleaner/items.json",
-        "https://rawgithub.com/azu/ParamCleaner_GM/master/data.json"
+        "https://rawgithub.com/azu/ParamCleaner_GM/master/data.json",
+        "http://wedata.net/databases/UrlCleaner/items.json"
     ];
     var database = new Wedata.Database(DATABASE_URL);
     GM_registerMenuCommand("UrlCleaner - clear cache", function () {

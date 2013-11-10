@@ -25,7 +25,6 @@ Wedata.Database = function (urls) {
 Wedata.Database.prototype.get = function (callback) {
     var self = this;
     var cacheInfo = Wedata.Cache.get(self.url);
-
     function getWeData(dataURL) {
         GM_xmlhttpRequest({
             method: "GET",
@@ -56,7 +55,7 @@ Wedata.Database.prototype.get = function (callback) {
         self.items = cacheInfo;
         callback(self.items);
     } else {
-        getWeData();
+        getWeData(self.url);
     }
 };
 
