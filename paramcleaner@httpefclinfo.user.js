@@ -11,12 +11,20 @@
 // @contributor    Ussy <http://userscripts.org/scripts/show/70851>
 // @homepage       http://efcl.info/
 // @run-at         document-end
+// @grant GM_registerMenuCommand
+// @grant GM_getValue
+// @grant GM_setValue
+// @grant GM_log
+// @grant GM_xmlhttpRequest
 // @noframes
 // ==/UserScript==
 (function (win) {
+    if (window.top != window.self) {
+        return;
+    }
     const DATABASE_URL = [
-        "https://rawgithub.com/azu/ParamCleaner_GM/master/data.json",
-        "http://wedata.net/databases/UrlCleaner/items.json"
+        "http://wedata.net/databases/UrlCleaner/items.json",
+        "https://rawgithub.com/azu/ParamCleaner_GM/master/data.json"
     ];
     var database = new Wedata.Database(DATABASE_URL);
     GM_registerMenuCommand("UrlCleaner - clear cache", function () {
