@@ -6,7 +6,7 @@
 // @include        http://*#*
 // @include        https://*?*
 // @include        https://*#*
-// @require        https://rawgithub.com/azu/ParamCleaner_GM/master/wedata.js
+// @require        https://raw.githubusercontent.com/azu/ParamCleaner_GM/master/wedata.js
 // @author         azu
 // @contributor    Ussy <http://userscripts.org/scripts/show/70851>
 // @homepage       http://efcl.info/
@@ -24,11 +24,12 @@
     }
     const DATABASE_URL = [
         "http://wedata.net/databases/UrlCleaner/items.json",
-        "https://rawgithub.com/azu/ParamCleaner_GM/master/data.json"
+        "https://raw.githubusercontent.com/azu/ParamCleaner_GM/master/master/data.json"
     ];
     var database = new Wedata.Database(DATABASE_URL);
     GM_registerMenuCommand("UrlCleaner - clear cache", function () {
         database.clearCache();
+        location.reload();
     });
     var link = document.querySelector("link[rel=canonical]");
     if (link && link.href == location.href) {
